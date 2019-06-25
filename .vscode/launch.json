@@ -7,8 +7,14 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug Node",
+      "name": "Debug Aula",
       "program": "${workspaceFolder}\\fase02\\aulas\\index.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Debug Desafio",
+      "program": "${workspaceFolder}\\fase02\\desafio\\index.js"
     }
   ]
 }
