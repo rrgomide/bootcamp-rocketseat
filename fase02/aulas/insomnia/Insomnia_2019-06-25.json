@@ -1,0 +1,167 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2019-06-25T18:53:02.924Z",
+  "__export_source": "insomnia.desktop.app:v6.5.4",
+  "resources": [
+    {
+      "_id": "req_efa1929efd3644a8815821154ad9f7df",
+      "authentication": {},
+      "body": {},
+      "created": 1561400410276,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1561400410276,
+      "method": "DELETE",
+      "modified": 1561400451094,
+      "name": "Exclusão de usuário",
+      "parameters": [],
+      "parentId": "wrk_656e9b5ff7ee42a6b2ed47075953a993",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "localhost:3000/users/0",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_656e9b5ff7ee42a6b2ed47075953a993",
+      "created": 1561398657457,
+      "description": "",
+      "modified": 1561398657457,
+      "name": "Bootcamp",
+      "parentId": null,
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_71ae569b333a4218b200d84619618048",
+      "authentication": {},
+      "body": {},
+      "created": 1561398679788,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1561398679789,
+      "method": "GET",
+      "modified": 1561399255212,
+      "name": "Listagem de todos os usuários",
+      "parameters": [],
+      "parentId": "wrk_656e9b5ff7ee42a6b2ed47075953a993",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/users/",
+      "_type": "request"
+    },
+    {
+      "_id": "req_866d8932eb4f46d6beb2d976493acdae",
+      "authentication": {},
+      "body": {},
+      "created": 1561399245666,
+      "description": "",
+      "headers": [],
+      "isPrivate": false,
+      "metaSortKey": -1537591695666.5,
+      "method": "GET",
+      "modified": 1561399276686,
+      "name": "Listagem de um usuário",
+      "parameters": [],
+      "parentId": "wrk_656e9b5ff7ee42a6b2ed47075953a993",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/users/0",
+      "_type": "request"
+    },
+    {
+      "_id": "req_f7d4a450cee54af4a8504b593813b45e",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"Calopsita\"\n}"
+      },
+      "created": 1561399364954,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_5a1567d23262414c8de8de55be26e720",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1537591695616.5,
+      "method": "POST",
+      "modified": 1561485493755,
+      "name": "Criar usuário",
+      "parameters": [],
+      "parentId": "wrk_656e9b5ff7ee42a6b2ed47075953a993",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "http://localhost:3000/users/",
+      "_type": "request"
+    },
+    {
+      "_id": "req_fe00c866609f4fa086530efa0b9c864a",
+      "authentication": {},
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"Primeiro usuário\"\n}"
+      },
+      "created": 1561399655207,
+      "description": "",
+      "headers": [
+        {
+          "id": "pair_c64455d1fde447b5ac892baa1ffb9f29",
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "isPrivate": false,
+      "metaSortKey": -1537591695566.5,
+      "method": "PUT",
+      "modified": 1561399699311,
+      "name": "Alterar primeiro usuário para \"Primeiro usuário\"",
+      "parameters": [],
+      "parentId": "wrk_656e9b5ff7ee42a6b2ed47075953a993",
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingSendCookies": true,
+      "settingStoreCookies": true,
+      "url": "localhost:3000/users/0",
+      "_type": "request"
+    },
+    {
+      "_id": "env_42d476915295e5da9f6bbdfe60279108a29d42d7",
+      "color": null,
+      "created": 1561398657493,
+      "data": {},
+      "dataPropertyOrder": null,
+      "isPrivate": false,
+      "metaSortKey": 1561398657493,
+      "modified": 1561398657493,
+      "name": "Base Environment",
+      "parentId": "wrk_656e9b5ff7ee42a6b2ed47075953a993",
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_42d476915295e5da9f6bbdfe60279108a29d42d7",
+      "cookies": [],
+      "created": 1561398657495,
+      "modified": 1561398657495,
+      "name": "Default Jar",
+      "parentId": "wrk_656e9b5ff7ee42a6b2ed47075953a993",
+      "_type": "cookie_jar"
+    }
+  ]
+}
