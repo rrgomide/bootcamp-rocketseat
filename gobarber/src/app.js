@@ -1,5 +1,5 @@
-//const express = require('express');
-//const routes = require('./routes');
+// const express = require('express');
+// const routes = require('./routes');
 
 /**
  * O sucrase permite o estilo de imports moderno
@@ -23,5 +23,5 @@ class App {
   }
 }
 
-//module.exports = new App().server;
+// module.exports = new App().server;
 export default new App().server;
